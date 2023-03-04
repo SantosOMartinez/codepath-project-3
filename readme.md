@@ -26,12 +26,13 @@ The following **additional** features are implemented:
 - [X] Animations for table and collection cells where they fade in.
 - [X] Light and Dark mode support.
 - [X] Additional movie information such as movie ranking based on popularity.
+- [X] Fetches movies json from movie api and supplies it to the application. (Real data)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://user-images.githubusercontent.com/60373473/222926352-66d6e99b-dc66-4c98-8d72-1bf03b37e77a.mp4
 
 <!-- Replace this with whatever GIF tool you used! -->
 <!-- Note: Used MP4 video format instead of GIF as the file size was way smaller at a higher quality.-->
@@ -48,7 +49,7 @@ Video created with:
 
 Describe any challenges encountered while building the app.
 
-I ran into a bug that can easily be solved if I learn where some specific events can be called and handled. These is a very minor bug that is on the stretch feature but is caused by my current lack of knowledge with UIKit. I think that if I gain more knowledge in UIKIt this bug can be resolved.
+I ran into a bug that can easily be solved if I learn where some specific events can be called and handled. This is a very minor bug that is on the stretch feature but is caused by my current lack of knowledge with UIKit. I think that if I gain more knowledge in UIKIt this bug can be resolved.
 
 **Bug:**
 
@@ -60,7 +61,7 @@ Movie ranking style is sometimes not updated correctly when the cell is removed 
 
 ## License
 
-    Copyright [2023] Santos O. Martínez Braña
+    Copyright 2023 Santos O. Martínez Braña
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
