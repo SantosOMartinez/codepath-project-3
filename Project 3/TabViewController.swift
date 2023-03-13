@@ -20,7 +20,7 @@ class TabViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Movie.fetchMovies { self.movies = $0}
+        fetchMovies { self.movies = $0}
     }
 
     func updateData(){

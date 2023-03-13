@@ -13,7 +13,6 @@ class CollectionCell: UICollectionViewCell {
 
     @IBOutlet weak var voteAvg: UILabel!
     @IBOutlet weak var poster: UIImageView!
-    @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var movieDescription: UILabel!
 
 
@@ -30,9 +29,7 @@ class CollectionCell: UICollectionViewCell {
 
         handlePlacement()
 
-        movieTitle.text = movie.title
-
-        Nuke.loadImage(with: Movie.buildUrl(movie.poster)!, into: poster)
+        Nuke.loadImage(with: createImageUrl(movie.poster ?? "")!, into: poster)
         poster.layer.cornerRadius = 8
 
     }

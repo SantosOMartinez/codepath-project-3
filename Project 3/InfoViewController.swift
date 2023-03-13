@@ -31,6 +31,7 @@ class InfoViewController: UIViewController, UIScrollViewDelegate {
         customStyle()
         scrollView.delegate = self
 
+
         let formatter = customFormat()
 
         movieTitle.text = movie.title
@@ -45,9 +46,26 @@ class InfoViewController: UIViewController, UIScrollViewDelegate {
         formatter.minimumFractionDigits = 0
         voteCount.text = formatter.string(for: movie.voteCount)
 
-        Nuke.loadImage(with: Movie.buildUrl(movie.backdrop)!, into: backdrop)
+        Nuke.loadImage(with: createImageUrl(movie.backdrop ?? "")!, into: backdrop)
 
         handlePlacement()
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        typealias ListView = MoviesViewController
+
+        guard let listView = segue.destination as? ListView else {
+            return
+        }
+
+        fetchSimilarMovies(id: movie.id, completion: {m in
+            DispatchQueue.main.async {
+                listView.movies = m
+                listView.tableView.reloadData()
+            }
+        })
+
+
     }
 
     func customStyle(){

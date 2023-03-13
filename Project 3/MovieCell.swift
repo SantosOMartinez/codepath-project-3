@@ -30,8 +30,8 @@ class MovieCell: UITableViewCell {
         voteAvg.text = formatter.string(for: movie.voteAvg)
         placement = movie.placement
 
-        Nuke.loadImage(with: Movie.buildUrl(movie.poster)!, into: moviePoster)
-        handlePlacement(movie.placement)
+        Nuke.loadImage(with: createImageUrl(movie.poster ?? "")!, into: moviePoster)
+        handlePlacement(movie.placement!)
     }
 
     func customStyle(){

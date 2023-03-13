@@ -10,18 +10,20 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] Implement network call and table view to display a list of movies currently playing (title, description, image)
-- [ ] App has a collection view with the same list of movies
-- [ ] Uses a tab bar controller to switch between collection view and table view screens
+- [X] Implement network call and table view to display a list of movies currently playing (title, description, image)
+- [X] App has a collection view with the same list of movies
+- [X] Uses a tab bar controller to switch between collection view and table view screens
  
 The following **optional** features are implemented:
 
-- [ ] Make an additional network call to another end-point.	
-- [ ] Allow users to scroll when context items are off-screen (table view implemention)
+- [X] Make an additional network call to another end-point.	
+- [X] Allow users to scroll when context items are off-screen (table view implementation)
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] Animations for table and collection cells where they fade in.
+- [X] Light and Dark mode support.
+- [X] Additional movie information such as movie ranking based on popularity.
 
 ## Video Walkthrough
 

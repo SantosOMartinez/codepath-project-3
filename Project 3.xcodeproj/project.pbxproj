@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1EF9EB29BFB3EA00DBE4BA /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EF9EA29BFB3EA00DBE4BA /* Api.swift */; };
 		7C8B7A3529B022E6001F9FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B7A3429B022E6001F9FAC /* AppDelegate.swift */; };
 		7C8B7A3729B022E6001F9FAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B7A3629B022E6001F9FAC /* SceneDelegate.swift */; };
 		7C8B7A3C29B022E6001F9FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8B7A3A29B022E6001F9FAC /* Main.storyboard */; };
@@ -20,10 +21,10 @@
 		7CAA1E3E29B2533B000867C6 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA1E3D29B2533B000867C6 /* CollectionCell.swift */; };
 		7CAA1E4029B26261000867C6 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA1E3F29B26261000867C6 /* CollectionViewController.swift */; };
 		7CAA1E4629B26567000867C6 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA1E4529B26567000867C6 /* TabViewController.swift */; };
-		7CAA1E4829B29FD6000867C6 /* MovieJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA1E4729B29FD6000867C6 /* MovieJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1EF9EA29BFB3EA00DBE4BA /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		7C8B7A3129B022E6001F9FAC /* Project 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8B7A3429B022E6001F9FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C8B7A3629B022E6001F9FAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		7CAA1E3D29B2533B000867C6 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		7CAA1E3F29B26261000867C6 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		7CAA1E4529B26567000867C6 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
-		7CAA1E4729B29FD6000867C6 /* MovieJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieJson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				7C8B7A5429B06F66001F9FAC /* Movie.swift */,
-				7CAA1E4729B29FD6000867C6 /* MovieJson.swift */,
+				7C1EF9EA29BFB3EA00DBE4BA /* Api.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,11 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CAA1E4829B29FD6000867C6 /* MovieJson.swift in Sources */,
 				7C8B7A3529B022E6001F9FAC /* AppDelegate.swift in Sources */,
 				7C8B7A4C29B06E49001F9FAC /* MovieCell.swift in Sources */,
 				7C8B7A5529B06F66001F9FAC /* Movie.swift in Sources */,
 				7CAA1E3E29B2533B000867C6 /* CollectionCell.swift in Sources */,
+				7C1EF9EB29BFB3EA00DBE4BA /* Api.swift in Sources */,
 				7CAA1E4029B26261000867C6 /* CollectionViewController.swift in Sources */,
 				7C8B7A3729B022E6001F9FAC /* SceneDelegate.swift in Sources */,
 				7CAA1E4629B26567000867C6 /* TabViewController.swift in Sources */,
@@ -332,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Project 2/Info.plist";
+				INFOPLIST_FILE = "Project 3/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Showman;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -360,7 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Project 2/Info.plist";
+				INFOPLIST_FILE = "Project 3/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Showman;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
