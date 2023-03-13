@@ -4,7 +4,7 @@ Submitted by: **Santos O. Martínez Braña**
 
 **Showman** is an movie browsing app that continues networking capabilities of the previous iteration.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://user-images.githubusercontent.com/60373473/224843490-00ad6c0d-cfd7-4cbe-bb64-7e004d8bc139.mp4
 
 <!-- Replace this with whatever GIF tool you used! -->
 <!-- Note: Used MP4 video format instead of GIF as the file size was way smaller at a higher quality.-->
@@ -45,6 +45,8 @@ Video created with:
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+I was unable to display the page sheet title for the similar movies view. I don't exactly know where I would go to change this as I tried many properties that should directly tackle this but it seems I am missing some key context.
 
 ## License
 
